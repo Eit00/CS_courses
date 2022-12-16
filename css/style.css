@@ -220,14 +220,17 @@ header{
     margin-top:5%;
 }
 .grid-boxes{
-    display:grid;
-    grid-template-columns: 50px 50px 50px 50px;
+    float:left;
 }
 .box{
-    width:100px;
+    width:200px;
     height:100px;
     border-radius:10px;
     color:white;
+    text-align:center;
+    color:black;
+    line-height: 100px;
+    float:left;
 }
 footer{
     width:100%;
