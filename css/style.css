@@ -1,0 +1,251 @@
+*  {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:#FFFFFF;
+}
+   a { 
+    text-decoration: none;
+   } 
+header{
+    width:100%;
+    height: 60px;
+    line-height: 60px;
+}
+.navbar-left{
+    float:left;
+}
+.navbar-logo{
+    float:left;
+}
+.navbar-right{
+    float:right;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar li{
+    display: inline;
+    font-size:25px;
+    margin-left:20px;
+}
+.log-in-button{
+    background-color:#04AA6D;
+    border-width: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    width:300px;
+    height:45px;
+    line-height: 45px;
+    text-align:center;
+    color:white;
+    margin-right:50px;
+}
+.intro{
+    width:100%;
+    height:500px;
+    background-color: #282A35;
+    color:#ffffff;
+}
+.intro .container{
+    padding-top:100px;
+    text-align: center;
+    position:relative;
+}
+.intro .container h1{
+    font-size:50px;
+}
+.intro .container h2{
+    font-size:20px;
+}
+.intro .container button{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width:200px;
+    height:60px;
+}
+.intro .container h3{
+    font-size:20px;
+    text-decoration-line: underline;
+}
+.sections{
+    background-color:#D9EEE1;
+}
+.classes{
+    color:black;
+    height:400px;
+    width:100%;
+    margin:0
+    padding:0;
+}
+.classes a{
+    color:white;
+}
+.left-panel{
+    float:left;
+    margin-left:20%;
+    text-align:center;
+}
+.right-panel{
+    float:right;
+    margin-right:22%;
+    margin-top:50px;
+}
+.top-button{
+    background-color:#04AA6D;
+    border-width: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    margin-left:20%;
+}
+.mid-button{
+    background-color:black;
+    border-width: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    margin-left:75px;
+}
+.bot-button{
+    background-color:lightpink;
+    border-width: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    margin-left:75px;
+}
+.example-button{
+    background-color:#04AA6D;
+    border-width: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    text-align:center;
+    margin-top:10px;
+    margin-left:20px;
+}
+.outer-frame{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width:500px;
+    height:310px;
+    background-color:#E7E9EB;
+    padding: 10px;
+}
+.inner-frame{
+    margin-left:5px;
+    background-color: rgb(21,32,43);
+    width:470px;
+    height:180px;
+    padding:10px;
+}
+.first-class{
+    background-color:#D9EEE1;
+    height:600px;
+}
+.second-class{
+    background-color:yellow;
+    height:600px;
+}
+.third-class{
+    background-color:lightcyan;
+    height:600px;
+    margin:0;
+    padding:0;  
+}
+.fourth-class{
+    background-color:lightpink;
+    height:600px;
+}
+.tut_img{
+    width:400px;
+    height:180px;
+}
+.third-class .tut_img{
+    width:470px;
+    height:180px;
+}
+.topics-list{
+    width:100%;
+    height:3000px;
+    background-color: rgb(21,32,43);
+}
+.topics-list h1{
+    font-size:50px;
+}
+.topics-list h2{
+    font-size:30px;
+}
+.learn-button{
+    background-color:#04AA6D;
+    border-width: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    color:white;
+}
+.left-box{
+    width:600px;
+    height:300px;
+    border-radius:10px;
+    color:white;
+    float:left;
+    margin-left:15%;
+    color:#000000;
+    text-align:center;
+    margin-top:5%;
+}
+.right-box{
+    width:600px;
+    height:300px;
+    border-radius:10px;
+    color:white;
+    float:right;
+    margin-right:15%;
+    color:#000000;
+    text-align:center;
+    margin-top:5%;
+}
+.grid-boxes{
+    display:grid;
+    grid-template-columns: 50px 50px 50px 50px;
+}
+.box{
+    width:100px;
+    height:100px;
+    border-radius:10px;
+    color:white;
+}
+footer{
+    width:100%;
+    height:150px;
+}
+.footer-left{
+    float:left;
+    margin-left:10%;
+}
+.footer-right{
+    float:right;
+    margin-right:15%;
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    display: inline;
+    font-size:25px;
+    margin-left:20px;
+}
