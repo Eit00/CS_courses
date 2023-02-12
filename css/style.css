@@ -60,6 +60,17 @@ header{
 .intro .container h2{
     font-size:20px;
 }
+.typing{
+    font-size:25px;
+    background-color:white;
+    width:500px;
+    height:100px;
+    border-radius: 50px;
+    color: #282A35;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding:5px;
+}
 .intro .container button{
     border-style: solid;
     border-width: 2px;
@@ -86,13 +97,17 @@ header{
 }
 .left-panel{
     float:left;
-    margin-left:20%;
+    padding-left:5%;
     text-align:center;
+    width:50%;
+    box-sizing: border-box;
 }
 .right-panel{
     float:right;
-    margin-right:22%;
-    margin-top:50px;
+    padding-right:22%;
+    padding-top:50px;
+    width:50%;
+    box-sizing: border-box;
 }
 .top-button{
     background-color:#04AA6D;
@@ -102,7 +117,8 @@ header{
     width:200px;
     height:40px;
     line-height: 40px;
-    margin-left:20%;
+    display:block;
+    position: relative;
 }
 .mid-button{
     background-color:black;
@@ -112,7 +128,8 @@ header{
     width:200px;
     height:40px;
     line-height: 40px;
-    margin-left:75px;
+    display:block;
+    position: relative;
 }
 .bot-button{
     background-color:lightpink;
@@ -123,6 +140,8 @@ header{
     height:40px;
     line-height: 40px;
     margin-left:75px;
+    display:block;
+    position: relative;
 }
 .example-button{
     background-color:#04AA6D;
@@ -269,4 +288,6 @@ footer li{
 }
 .copyright{
     float:left;
+    width:100%;
+    text-align: center;
 }
