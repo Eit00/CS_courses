@@ -3,7 +3,7 @@
     margin-top:3.6%;
     float:left;
     position:fixed;
-    width:20%;
+    width:15%;
     height:100%;
     background-color:#E7E9EB;
     overflow-y:scroll;
@@ -18,19 +18,16 @@
     padding:0;
 }
 .list-topics li{
-    font-size:20px;
+    margin-top:5px;
+    font-size:14px;
     width:100%;
-    height:50px;
-    line-height: 40px;
     padding-left:10%;
 }
 .list-topics .li-list{
     width:100%;
-    height:40px;
 }
 .list-topics .li-list-active{
     width:100%;
-    height:40px;
     background-color:#04AA6D;
 }
 .navbar-second{
